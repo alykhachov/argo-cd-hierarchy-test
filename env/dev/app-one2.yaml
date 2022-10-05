@@ -6,7 +6,7 @@ metadata:
   finalizers:
     - resources-finalizer.argocd.argoproj.io
 spec:
-  project: app-one
+  project: app-two
   destination:
     name: in-cluster
     namespace: dev-app-two
