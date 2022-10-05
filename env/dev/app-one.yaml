@@ -4,7 +4,7 @@ metadata:
   name: dev-app-one-component1
   namespace: dev-app-one
   finalizers:
-  - resources-finalizer.argocd.argoproj.io
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: app-one
   destination:
@@ -18,3 +18,5 @@ spec:
     automated:
       prune: true
       selfHeal: true
+    syncOptions:
+      - CreateNamespace=true
