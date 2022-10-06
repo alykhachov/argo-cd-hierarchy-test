@@ -1,0 +1,4 @@
+[submodule "app/envs"]
+	path = app/envs
+	url = https://github.com/alykhachov/git-submodule-test
+	branch = main
